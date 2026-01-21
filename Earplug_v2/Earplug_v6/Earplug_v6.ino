@@ -171,7 +171,7 @@ const char index_html[] PROGMEM =
 "ctx.strokeStyle='#39ff14';ctx.beginPath();ctx.moveTo(80,10);ctx.lineTo(80,430);ctx.stroke();"
 
 "ctx.fillStyle='#39ff14';ctx.font='12px Arial';"
-"for(var p=1010;p<=1100;p+=5){"
+"for(var p=950;p<=1040;p+=5){"
 "var y=mapY(p);"
 "ctx.fillText(p+' hPa',2,y+4);"
 "ctx.strokeStyle='#003300';ctx.beginPath();ctx.moveTo(80,y);ctx.lineTo(900,y);ctx.stroke();"

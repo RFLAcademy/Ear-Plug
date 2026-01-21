@@ -138,8 +138,8 @@ const char index_html[] PROGMEM =
 "var outData=[];"
 "var inData=[];"
 
-"var Y_MIN=1010;"
-"var Y_MAX=1100;"
+"var Y_MIN=950;"
+"var Y_MAX=1040;"
 
 "function mapY(v){return 430-((v-Y_MIN)/(Y_MAX-Y_MIN))*420;}"
 
